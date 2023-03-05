@@ -1,4 +1,4 @@
-public class Program {
+public class Variables {
   public static void main(String[] args) {
     // fix the variable types
     String name = "Toyota";
