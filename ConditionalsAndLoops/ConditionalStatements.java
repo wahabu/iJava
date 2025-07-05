@@ -7,6 +7,7 @@ public class ConditionalStatements {
     Scanner scanner = new Scanner(System.in);
     int price = scanner.nextInt();
     // complete the code
-
+    System.out.println(price);
+    scanner.close();
   }
 }

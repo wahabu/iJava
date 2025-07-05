@@ -11,5 +11,6 @@ public class Decrement {
     System.out.println("Round 1 results:");
     // fix
     System.out.println(--scoreBob);
+    scanner.close();
   }
 }

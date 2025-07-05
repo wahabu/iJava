@@ -11,5 +11,6 @@ public class Increment {
     System.out.println("Round 1 results:");
     // fix
     System.out.println(++scoreTom);
+    scanner.close();
   }
 }

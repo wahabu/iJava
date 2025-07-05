@@ -11,5 +11,6 @@ public class TimeConverter {
     seconds = minutes * 60;
 
     System.out.println(seconds);
+    scanner.close();
   }
 }
