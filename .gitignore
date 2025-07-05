@@ -1,0 +1,17 @@
+# Ignore compiled class files
+*.class
+
+# Ignore build directories
+/target/
+/build/
+**/target/
+
+# Ignore NetBeans-specific folders
+nbproject/private/
+
+# Ignore IDE-specific files
+*.iml
+.idea/
+
+# Ignore system files
+.DS_Store
