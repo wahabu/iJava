@@ -1,1 +1,13 @@
-*/target/
+# Ignore Maven build directory
+/target/
+
+# Ignore IDE files (optional but good practice)
+*.iml
+*.log
+*.class
+.idea/
+.DS_Store
+
+# NetBeans-specific (optional)
+nbproject/private/
+build/
