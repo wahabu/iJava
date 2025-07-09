@@ -1,7 +1,6 @@
 package vehicles; // Same package as Main.java
 
-public class Car { 
-    int year = 2014;
+public class Car {
     
     public static void main(String[] args) { // Main method - starting point when you run Car.java
         Car myCar = new Car();   // Object creation — 'myCar' is an instance of class 'Car'
