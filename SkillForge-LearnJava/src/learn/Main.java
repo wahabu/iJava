@@ -1,5 +1,5 @@
 
-package helloapp;
+package learn;
 
 public class Main {
     //block
