@@ -23,6 +23,16 @@ public class IdentifierExamples {
 
         // ✅ Valid identifier: method name
         greetUser(name1);
+        
+        // Package is usually declared at the top of the file
+        // Example: package com.example.utils;
+        
+        // Create object to access non-static method
+        IdentifierExamples obj = new IdentifierExamples();
+        obj.greetUser();
+
+        // Print constant
+        System.out.println("PI value is: " + PI);
     }
 
     // ✅ Valid identifier: method name
