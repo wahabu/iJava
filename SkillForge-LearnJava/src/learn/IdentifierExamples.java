@@ -1,10 +1,32 @@
+// ✅ Class name is an identifier
 public class IdentifierExamples {
 
-    // ✅ Valid identifier: Class name starts with uppercase letter
+    // ✅ Constant (final variable): cannot be changed after assignment
+    public static final double PI = 3.14159;
+
+    // ✅ Instance variable (non-static): stores data that can be changed per object
+    int age = 25;
+
+    // ✅ Method: reusable block of code
+    public void greetUser() {
+        System.out.println("Hello from greetUser!");
+    }
+
+    // ✅ Nested class: another identifier
+    public class Car {
+        int speed; // Variable inside the nested class
+    }
+
+    // ✅ Interface: contract that a class can implement
+    interface Drawable {
+        void draw(); // Method inside an interface
+    }
+
+    // ✅ Entry point of the program
     public static void main(String[] args) {
 
-        // ✅ Valid identifier: variable name starts with a lowercase letter
-        int age = 30;
+        // ✅ Variable identifier: starts with a lowercase letter
+        int userAge = 30;
 
         // ✅ Valid identifier: contains a number (not at the beginning)
         String name1 = "Ali";
@@ -16,26 +38,23 @@ public class IdentifierExamples {
         boolean _isActive = true;
 
         // ❌ Invalid identifier: cannot start with a digit
-        // int 2ndPlace = 2; // ← This will cause a compilation error
+        // int 2ndPlace = 2;
 
         // ❌ Invalid identifier: 'if' is a reserved keyword
-        // int if = 5; // ← This will also cause a compilation error
+        // int if = 5;
 
         // ✅ Valid identifier: method name
         greetUser(name1);
-        
-        // Package is usually declared at the top of the file
-        // Example: package com.example.utils;
-        
-        // Create object to access non-static method
+
+        // ✅ Accessing instance method using object
         IdentifierExamples obj = new IdentifierExamples();
         obj.greetUser();
 
-        // Print constant
+        // ✅ Printing a constant
         System.out.println("PI value is: " + PI);
     }
 
-    // ✅ Valid identifier: method name
+    // ✅ Another method (static): shows method as identifier
     public static void greetUser(String userName) {
         System.out.println("Welcome, " + userName + "!");
     }
