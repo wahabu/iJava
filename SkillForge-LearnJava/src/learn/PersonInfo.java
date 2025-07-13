@@ -2,7 +2,8 @@ package learn;
 
 public class PersonInfo {
     public static void main(String[] args) {
-        String[] names = {
+        String[] names =
+        {
             "Aさん",
             "Bさん",
             "Dさん",
@@ -10,7 +11,8 @@ public class PersonInfo {
             "Zさん"
         };
         
-        int[] ages = {
+        int[] ages =
+        {
             21,
             22,
             23,
@@ -19,15 +21,18 @@ public class PersonInfo {
         };
         
         int index = 4;
-        if (
-                index >= 0
-                        &&
-                index < ages.length
-                        && 
-                index < names.length
-        )   
-                        {
-                    System.out.println(names[index] + ": " + ages[index] + " Years");
-                 }
+        for (index = 0; index < names.length; index++) {
+            System.out.println(names[index] + ": " + ages[index] + " Years");
+        }
+//        if (
+//                index >= 0
+//                        &&
+//                index < ages.length
+//                        && 
+//                index < names.length
+//        )   
+//                 {
+//                    System.out.println(names[index] + ": " + ages[index] + " Years");
+//                 }
     }
 }
