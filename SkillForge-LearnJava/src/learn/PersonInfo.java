@@ -20,9 +20,19 @@ public class PersonInfo {
             25
         };
         
-        int index = 4;
+        int index;
+        System.out.println("------------------------------\n For loop:");
+        
         for (index = 0; index < names.length; index++) {
             System.out.println(names[index] + ": " + ages[index] + " Years");
+        }
+        
+        System.out.println("------------------------------\n While loop:");
+        index = 0;
+        
+        while (index < names.length) {
+            System.out.println(names[index] + ": " + ages[index] + " Years");
+            index++;
         }
 //        if (
 //                index >= 0
