@@ -1,8 +1,8 @@
-// Write a Java
+// Write a Java program to divide two numbers and print them on the screen.
 
 package basic_part_1;
-// DivisionTowNumbers
-public class DivisionTowNumbers {
+
+public class DivisionTwoNumbers {
 
     public static void main(String[] args) {
             int a = 50, b = 3;
