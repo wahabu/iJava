@@ -5,8 +5,9 @@
  * Expected Output:
  * 25 X 5 = 125
 */
-//import java.util.Scanner;
+
 package basic_part_1;
+import java.util.Scanner;
 
 public class ProductOfTwoNumbers {
        // main method begins execution of Java application
@@ -20,7 +21,7 @@ public class ProductOfTwoNumbers {
          System.out.print("Enter second integer: "); // prompt
          int number2 = input.nextInt(); // read second number from user
 
-         int sum = number1 + number2; // add numbers, then store total in sum
+         int sum = number1 * number2; // add numbers, then store total in sum
 
          System.out.printf("Sum is %d%n", sum); // display sum
       } // end method main
