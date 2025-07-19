@@ -15,9 +15,11 @@ public class MultiplicaionTable {
         // Read and store the first number
         int x = in.nextInt();
         
+        for (int i = 1; i <=10; i++) {
         // Calculate the product of the two numbers and display the result
-        System.out.println(x + " x " + 1 + " = " + x * 1);
-        System.out.println(x + " x " + 2 + " = " + x * 2);
-        System.out.println(x + " x " + 3 + " = " + x * 3);
+            System.out.println(x + " x " + i + " = " + x * (i));
+//        System.out.println(x + " x " + 2 + " = " + x * 2);
+//        System.out.println(x + " x " + 3 + " = " + x * 3);
+        }
     }
 }
