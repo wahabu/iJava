@@ -22,5 +22,11 @@ public class BinaryMultiplication {
         
         // Creater a Scanner object to read input from the user
         Scanner in = new Scanner(System.in);
+        
+        // Prompt the user to input the first binary number
+        System.out.print("Input the second binary number: ");
+        binary2 = in.nextLong();
+        
+        // Process binary2 to calculate the product
     }
 }
