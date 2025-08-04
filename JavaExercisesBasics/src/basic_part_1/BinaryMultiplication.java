@@ -24,9 +24,24 @@ public class BinaryMultiplication {
         Scanner in = new Scanner(System.in);
         
         // Prompt the user to input the first binary number
+        System.out.print("Input the first binary number: ");
+        binary1 = in.nextLong();
+        
+        // Prompt the user to input the second binary number
         System.out.print("Input the second binary number: ");
         binary2 = in.nextLong();
         
         // Process binary2 to calculate the product
+        while (binary2 != 0) {
+            digit = (int)(binary2 % 10);
+            if (digit == 1) {
+                binary1 = binary1 * factor;
+                multiply = binaryproduct((int) binary1, (int) multiply);
+            } else {
+                binary1 = binary1 * factor;
+            }
+            binary2 = binary2 / 10;
+            factor = 10;
+        }
     }
 }
