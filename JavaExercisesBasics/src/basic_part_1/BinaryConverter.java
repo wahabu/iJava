@@ -6,12 +6,21 @@
  * Expected Output
  * Product of two binary numbers: 110
  */
-package basic_part_1;
 
+package basic_part_1;
+import java.util.Scanner;
 public class BinaryConverter {
-    int dec_num, quot, i = 1, j;
-    int bin_num[] = new int[100];
+    public static void main(String args[]) {
+        // Declare variables to store decimal number, quotient, and an array for binary digits
+        int dec_num, quot, i = 1, j;
+        int bin_num[] = new int[100];
     
     // Create a Scanner object to read input from the user
     Scanner scan = new Scanner(System.in);
+    
+    // Prompt the user to input a decimal number
+    System.out.print("Input a Decimal Number: ");
+    dec_num = scan.nextInt();
+    
+    }
 }
