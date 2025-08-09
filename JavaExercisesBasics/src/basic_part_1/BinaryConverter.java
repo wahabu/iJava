@@ -1,10 +1,9 @@
 /*
  * Write a Java program to multiply two binary numbers.
  * Input Data:
- * Input the first binary number: 10
- * Input the second binary number: 11
+ * Input a Decimal Number: 5
  * Expected Output
- * Product of two binary numbers: 110
+ * Binary number is: 101
  */
 
 package basic_part_1;
@@ -22,5 +21,13 @@ public class BinaryConverter {
     System.out.print("Input a Decimal Number: ");
     dec_num = scan.nextInt();
     
+    // Initialize the quotient with the decimal number
+    quot = dec_num;
+    
+    // Convert the decimal number to binary and store binary digits
+    while (quot != 0) {
+        bin_num[i++] = quot % 2;
+        quot = quot / 2;
+    }
     }
 }
