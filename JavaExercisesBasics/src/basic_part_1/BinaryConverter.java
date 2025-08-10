@@ -29,5 +29,12 @@ public class BinaryConverter {
         bin_num[i++] = quot % 2;
         quot = quot / 2;
     }
+    
+    // Display the binary representation of the decimal number
+    System.out.print("Binary number is: ");
+    for (j = i - 1; j > 0; j--) {
+        System.out.print(bin_num[j]);
+    }
+    System.out.print("\n");
     }
 }
