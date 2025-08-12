@@ -1,13 +1,14 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Write a Java program to convert a decimal number to a hexadecimal number.
+ * Input Data:
+ * Input a decimal number: 15
+ * Expected Output
+
+ * Hexadecimal number is : F 
  */
 package basic_part_1;
 
-/**
- *
- * @author WAHAB
- */
+
 public class BinaryHexadecimalConverter {
     
 }
