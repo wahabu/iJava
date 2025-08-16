@@ -4,7 +4,7 @@
  * Input a decimal number: 1101
  * Expected Output
 
- * Hexadecimal number is : D
+ * HexaDecimal value: D
  */
 package basic_part_1;
 
