@@ -7,13 +7,16 @@
  * HexaDecimal value: D
  */
 package basic_part_1;
-
+import java.util.Scanner;
 
 public class BinaryHexadecimalConverter {
     public static void main(String[] args) {
         // Declare an array to store hexadecimal digits, variables for calculation, and binary binary input
         int[] hex = new int[1000];
         int i = 1, j = 0, rem, dec = 0, bin;
+        
+        // Create a Scanner object to read input from the user
+        Scanner in = new Scanner(System.in);
     }
     
 }
