@@ -17,6 +17,11 @@ public class BinaryHexadecimalConverter {
         
         // Create a Scanner object to read input from the user
         Scanner in = new Scanner(System.in);
+        
+        // Prompt the user to input a binary number
+        System.out.print("Input a Binary Number: ");
+        bin = in.nextInt();
+        
     }
     
 }
