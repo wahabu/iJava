@@ -22,6 +22,13 @@ public class BinaryHexadecimalConverter {
         System.out.print("Input a Binary Number: ");
         bin = in.nextInt();
         
+        // Convert the binary number to decimal
+        while (bin > 0) {
+            rem = bin % 2;
+            dec = dec + rem * i;
+            i = i * 2;
+            bin = bin / 10;
+        
     }
     
 }
