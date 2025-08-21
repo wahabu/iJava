@@ -28,7 +28,14 @@ public class BinaryHexadecimalConverter {
             dec = dec + rem * i;
             i = i * 2;
             bin = bin / 10;
+        }
+        i = 0;
         
+        // Convert the decimal number to hexadecimal
+        while (dec != 0) {
+            hex[i] = dec  16;
+            dec = dec / 16;
+            i++;
+        }
     }
-    
 }
