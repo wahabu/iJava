@@ -3,7 +3,7 @@
  * Input Data:
  * Input a binary number: 100
  * Expected Output
- * 
+ 
  * Decimal Number: 4
  */
 package basic_part_1;
