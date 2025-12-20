@@ -1,11 +1,11 @@
 // Write a Java program to divide two numbers and print them on the screen.
 
-package basic_part_1;
+package basics;
 
-public class DivisionTwoNumbers {
+public class E003_DivisionTwoNumbers {
 
     public static void main(String[] args) {
-            int a = 50, b = 3;
-            System.out.println(a / b);
+        int a = 50, b = 3;
+        System.out.println(a / b);
     }
 }
