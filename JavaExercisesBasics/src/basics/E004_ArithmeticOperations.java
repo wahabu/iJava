@@ -6,9 +6,9 @@
  * d. 5 + 15 / 3 * 2 - 8 % 3 >> 13
 */
 
-package basic_part_1;
+package basics;
 
-public class ArithmeticOperations {
+public class E004_ArithmeticOperations {
     public static void main(String[] args) {
     
         int a = -5 + 8 * 6;
